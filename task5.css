@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#riyad1{
+    position: relative;
+    display: inline-block; 
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 380px;
+    height: 100px;
+    background-color: rgb(150, 200, 243);
+}
+#absolute{
+    position: relative;
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    margin: 10px 10px;
+    padding-top: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(170, 135, 203);
+}
+#static1{
+    position: relative;
+    position: static;
+    background-color: rgb(241, 205, 157);
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    padding-top: 30px;
+    display: inline-block;
+}
+#border{
+    position: absolute;
+    display: inline-block;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px dashed rgb(77, 77, 214);
+}
+#relative{
+    position: relative;
+    position: absolute;
+    display: inline-block;
+    left: 120px;
+    margin-top: -10px;
+    margin-left: 10px;
+    padding-top: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(73, 73, 176);
+}
+#static2{
+    position: relative;
+    position: static;
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(241, 205, 157);
+    width: 100px;
+    height: 100px;
+    margin-left: 240px;
+    top: 0px;
+    padding-top: 30px;
+}
+#riyad2{
+    position: relative;
+    display: inline-block; 
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 380px;
+    height: 100px;
+    background-color: rgb(150, 200, 243);
+}
+#static3{
+    position: relative;
+    position: static;
+    background-color: rgb(241, 205, 157);
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    padding-top: 30px;
+    display: inline-block;   
+}
+#static4{
+    position: relative;
+    position: static;
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(241, 205, 157);
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    top: 0px;
+    padding-top: 30px;
+}
+#riyad3{
+    position: relative;
+    display: inline-block; 
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 380px;
+    height: 100px;
+    background-color: rgb(150, 200, 243);
+}
+#static5{
+    position: relative;
+    position: static;
+    background-color: rgb(241, 205, 157);
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    padding-top: 30px;
+    display: inline-block;
+}
+#fixed{
+    position: fixed;
+    position: absolute;
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(172, 84, 84);
+}
+#static6{
+    position: relative;
+    position: static;
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(241, 205, 157);
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    top: 0px;
+    padding-top: 30px;
+}
